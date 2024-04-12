@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluescreenSimulator", "BluescreenSimulator.csproj", "{027AE295-414B-4ED2-86A3-08C0E35729B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{027AE295-414B-4ED2-86A3-08C0E35729B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027AE295-414B-4ED2-86A3-08C0E35729B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027AE295-414B-4ED2-86A3-08C0E35729B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027AE295-414B-4ED2-86A3-08C0E35729B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770390A1-0D0D-4450-AA64-69337B8BBCA2}
+	EndGlobalSection
+EndGlobal
