@@ -7,8 +7,14 @@ The current list of BSODs are:
 - Windows XP to 7
 - Windows 9x
 - Windows 9x (system is busy)
+- Windows 9x (warning)
+- Windows NT
+- Windows 1.0
+- Windows Insider Build
+- Windows Longhorn
 
-  ![image](https://github.com/chocolatecake360/bluescreen-simulator/assets/100468871/1b5b0d44-52a0-4afa-a09a-16308a6a7826)
+ ![image](https://github.com/chocolatecake360/bluescreen-simulator/assets/100468871/dc960dc5-fcf1-4eb8-b4c5-a409fa6a16f8)
+
 
 
 
