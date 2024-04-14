@@ -10,6 +10,18 @@
     <Compile Update="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="insiderBSOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="insiderTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="longhornRSOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="longhornTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="sbt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -22,7 +34,25 @@
     <Compile Update="w9xt.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="warningBSOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="warningTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="win10hbsod_t.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="windows1BSOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="windows1Timer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="windowsNTBSOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="windowsNTTimer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="winhbsod.cs">
