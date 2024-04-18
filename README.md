@@ -13,7 +13,13 @@ The current list of BSODs are:
 - Windows Insider Build
 - Windows Longhorn
 
- ![image](https://github.com/chocolatecake360/bluescreen-simulator/assets/100468871/dc960dc5-fcf1-4eb8-b4c5-a409fa6a16f8)
+![image](https://github.com/chocolatecake360/bluescreen-simulator/assets/100468871/4053dd1b-29d5-4dff-b67f-1c955bcfe5d4)
+
+
+![image](https://github.com/chocolatecake360/bluescreen-simulator/assets/100468871/cbc7e77c-25f7-4a4d-a2a4-06900ac0a1c3)
+
+
+
 
 
 
