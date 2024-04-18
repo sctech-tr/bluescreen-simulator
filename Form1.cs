@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace BluescreenSimulator
 {
     public partial class Form1 : Form
@@ -9,12 +11,7 @@ namespace BluescreenSimulator
             this.ControlBox = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            CRASH CRASH = new CRASH();
-            CRASH.ShowDialog();
-            this.Hide();
-        }
+
 
         private void exit_button_Click(object sender, EventArgs e)
         {
@@ -23,30 +20,72 @@ namespace BluescreenSimulator
 
         private void button2_Click(object sender, EventArgs e)
         {
-            win10hbsod_t win10Hbsod_T = new win10hbsod_t();
-            win10Hbsod_T.ShowDialog();
-            this.Hide();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            winxpt winxpt = new winxpt();
-            winxpt.ShowDialog();
-            this.Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            w9xt w9xt = new w9xt();
-            w9xt.ShowDialog();
-            this.Hide();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            sbt sbt = new sbt();
-            sbt.ShowDialog();
-            this.Hide();
+            if (comboBox1.SelectedItem.ToString() == "Windows 10")
+            {
+                CRASH CRASH = new CRASH();
+                CRASH.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows 10 (happy)")
+            {
+                win10hbsod_t win10Hbsod_T = new win10hbsod_t();
+                win10Hbsod_T.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows XP to 7")
+            {
+                winxpt winxpt = new winxpt();
+                winxpt.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows 9x")
+            {
+                w9xt win9xt = new w9xt();
+                win9xt.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows 9x (system is busy)")
+            {
+                sbt sbt = new sbt();
+                sbt.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows 9x (warning)")
+            {
+                warningTimer warningTimer = new warningTimer();
+                warningTimer.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows NT")
+            {
+                windowsNTTimer windowsNTTimer = new windowsNTTimer();
+                windowsNTTimer.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows 1.0")
+            {
+                windows1Timer windows1Timer = new windows1Timer();
+                windows1Timer.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows Insider Build")
+            {
+                insiderTimer insiderTimer = new insiderTimer();
+                insiderTimer.ShowDialog();
+                this.Hide();
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Windows Longhorn")
+            {
+                longhornTimer longhornTimer = new longhornTimer();
+                longhornTimer.ShowDialog();
+                this.Hide();
+            }
+            else
+            {
+                string m = "Please enter a valid entry.";
+                string t = "BluescreenSimulator";
+                MessageBox.Show(m, t);
+            }
         }
     }
 }
