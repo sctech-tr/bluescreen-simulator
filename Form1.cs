@@ -87,5 +87,26 @@ namespace BluescreenSimulator
                 MessageBox.Show(m, t);
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            string script = Path.Combine(Application.StartupPath, "repo.py");
+
+            if (File.Exists(script))
+            {
+                try
+                {
+                    Process.Start("py.exe", script);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Script to open the repo page is not present", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
