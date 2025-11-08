@@ -1,3 +1,4 @@
+# MOVED https://codeberg.org/sctech/bluescreen-simulator
 # BluescreenSimulator
 A free and harmless BSOD simulator!
 
